@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9AAF4221ED960A100BE7694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AAF4101ED960A100BE7694 /* Assets.xcassets */; };
+		A9AAF4231ED960A100BE7694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AAF4111ED960A100BE7694 /* LaunchScreen.storyboard */; };
+		A9AAF4241ED960A100BE7694 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9AAF4151ED960A100BE7694 /* Info.plist */; };
+		A9AAF4251ED960A100BE7694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AAF4191ED960A100BE7694 /* AppDelegate.swift */; };
+		A9AAF4271ED960A100BE7694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AAF4201ED960A100BE7694 /* Main.storyboard */; };
+		A9AAF4291ED960E000BE7694 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AAF4281ED960E000BE7694 /* HomeVC.swift */; };
+		A9B2741D1ED988C900BF3E75 /* default-Music.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B2741C1ED988C900BF3E75 /* default-Music.png */; };
+		A9B2741F1ED9891C00BF3E75 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9B2741E1ED9891C00BF3E75 /* default.jpg */; };
+		A9B274211ED98A2500BF3E75 /* dm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9B274201ED98A2500BF3E75 /* dm.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A98016E61ED95ED800F2243E /* TDMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AAF4101ED960A100BE7694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TDMusicApp/Assets.xcassets; sourceTree = "<group>"; };
+		A9AAF4121ED960A100BE7694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9AAF4151ED960A100BE7694 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TDMusicApp/Info.plist; sourceTree = "<group>"; };
+		A9AAF4191ED960A100BE7694 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9AAF4201ED960A100BE7694 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A9AAF4281ED960E000BE7694 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A9B2741C1ED988C900BF3E75 /* default-Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-Music.png"; sourceTree = "<group>"; };
+		A9B2741E1ED9891C00BF3E75 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		A9B274201ED98A2500BF3E75 /* dm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dm.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98016E31ED95ED800F2243E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98016DD1ED95ED800F2243E = {
+			isa = PBXGroup;
+			children = (
+				A9AAF40F1ED960A100BE7694 /* TDMusicApp */,
+				A9AAF4101ED960A100BE7694 /* Assets.xcassets */,
+				A9AAF4111ED960A100BE7694 /* LaunchScreen.storyboard */,
+				A9AAF4151ED960A100BE7694 /* Info.plist */,
+				A98016E71ED95ED800F2243E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98016E71ED95ED800F2243E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98016E61ED95ED800F2243E /* TDMusicApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9AAF40F1ED960A100BE7694 /* TDMusicApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAF4131ED960A100BE7694 /* Categories */,
+				A9AAF41E1ED960A100BE7694 /* Resources */,
+				A9AAF4141ED960A100BE7694 /* Contant */,
+				A9AAF4161ED960A100BE7694 /* MVC */,
+				A9AAF41F1ED960A100BE7694 /* Storyboard */,
+				A9AAF4211ED960A100BE7694 /* Utility */,
+			);
+			path = TDMusicApp;
+			sourceTree = "<group>";
+		};
+		A9AAF4131ED960A100BE7694 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A9AAF4141ED960A100BE7694 /* Contant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contant;
+			sourceTree = "<group>";
+		};
+		A9AAF4161ED960A100BE7694 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAF41C1ED960A100BE7694 /* Model */,
+				A9AAF41D1ED960A100BE7694 /* View */,
+				A9AAF4171ED960A100BE7694 /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		A9AAF4171ED960A100BE7694 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAF4181ED960A100BE7694 /* AppDelegate */,
+				A9AAF41A1ED960A100BE7694 /* HomeVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9AAF4181ED960A100BE7694 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAF4191ED960A100BE7694 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A9AAF41A1ED960A100BE7694 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAF4281ED960E000BE7694 /* HomeVC.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		A9AAF41C1ED960A100BE7694 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9AAF41D1ED960A100BE7694 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9AAF41E1ED960A100BE7694 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9B274201ED98A2500BF3E75 /* dm.jpg */,
+				A9B2741E1ED9891C00BF3E75 /* default.jpg */,
+				A9B2741C1ED988C900BF3E75 /* default-Music.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9AAF41F1ED960A100BE7694 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAF4201ED960A100BE7694 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A9AAF4211ED960A100BE7694 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98016E51ED95ED800F2243E /* TDMusicApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98016F81ED95ED800F2243E /* Build configuration list for PBXNativeTarget "TDMusicApp" */;
+			buildPhases = (
+				A98016E21ED95ED800F2243E /* Sources */,
+				A98016E31ED95ED800F2243E /* Frameworks */,
+				A98016E41ED95ED800F2243E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDMusicApp;
+			productName = TDMusicApp;
+			productReference = A98016E61ED95ED800F2243E /* TDMusicApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98016DE1ED95ED800F2243E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dahiyaboy;
+				TargetAttributes = {
+					A98016E51ED95ED800F2243E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7BCW99KL8P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A98016E11ED95ED800F2243E /* Build configuration list for PBXProject "TDMusicApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98016DD1ED95ED800F2243E;
+			productRefGroup = A98016E71ED95ED800F2243E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98016E51ED95ED800F2243E /* TDMusicApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98016E41ED95ED800F2243E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B2741D1ED988C900BF3E75 /* default-Music.png in Resources */,
+				A9AAF4221ED960A100BE7694 /* Assets.xcassets in Resources */,
+				A9AAF4231ED960A100BE7694 /* LaunchScreen.storyboard in Resources */,
+				A9AAF4241ED960A100BE7694 /* Info.plist in Resources */,
+				A9AAF4271ED960A100BE7694 /* Main.storyboard in Resources */,
+				A9B274211ED98A2500BF3E75 /* dm.jpg in Resources */,
+				A9B2741F1ED9891C00BF3E75 /* default.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98016E21ED95ED800F2243E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AAF4291ED960E000BE7694 /* HomeVC.swift in Sources */,
+				A9AAF4251ED960A100BE7694 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9AAF4111ED960A100BE7694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AAF4121ED960A100BE7694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = TDMusicApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98016F61ED95ED800F2243E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98016F71ED95ED800F2243E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98016F91ED95ED800F2243E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TDMusicApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahiyaboy.TDMusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A98016FA1ED95ED800F2243E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TDMusicApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahiyaboy.TDMusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98016E11ED95ED800F2243E /* Build configuration list for PBXProject "TDMusicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98016F61ED95ED800F2243E /* Debug */,
+				A98016F71ED95ED800F2243E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98016F81ED95ED800F2243E /* Build configuration list for PBXNativeTarget "TDMusicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98016F91ED95ED800F2243E /* Debug */,
+				A98016FA1ED95ED800F2243E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98016DE1ED95ED800F2243E /* Project object */;
+}

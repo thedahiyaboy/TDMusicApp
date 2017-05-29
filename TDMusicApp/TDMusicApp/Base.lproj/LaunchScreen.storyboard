@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tinu Dahiya" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgo-7h-E7h">
+                                <rect key="frame" x="0.0" y="649" width="375" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ao0-eO-Fub">
+                                <rect key="frame" x="0.0" y="100" width="375" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music-player" translatesAutoresizingMaskIntoConstraints="NO" id="7Gp-JP-6dw">
+                                        <rect key="frame" x="155.5" y="0.0" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="XxG-IB-caa"/>
+                                            <constraint firstAttribute="width" constant="64" id="h08-xj-3Gz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TDMusicApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdD-rV-u3J">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="48"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                        <color key="textColor" red="0.7843137255" green="0.024926385839999999" blue="0.01847267927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="BdD-rV-u3J" firstAttribute="top" secondItem="7Gp-JP-6dw" secondAttribute="bottom" constant="8" id="0lw-Hs-pe5"/>
+                                    <constraint firstAttribute="height" constant="128" id="AaV-Ci-7pE"/>
+                                    <constraint firstItem="7Gp-JP-6dw" firstAttribute="top" secondItem="ao0-eO-Fub" secondAttribute="top" id="JeP-mN-yCg"/>
+                                    <constraint firstItem="7Gp-JP-6dw" firstAttribute="centerX" secondItem="ao0-eO-Fub" secondAttribute="centerX" id="T4g-C9-adE"/>
+                                    <constraint firstItem="BdD-rV-u3J" firstAttribute="leading" secondItem="ao0-eO-Fub" secondAttribute="leading" id="fH9-6z-aGg"/>
+                                    <constraint firstAttribute="bottom" secondItem="BdD-rV-u3J" secondAttribute="bottom" constant="8" id="qBp-HK-E5d"/>
+                                    <constraint firstAttribute="trailing" secondItem="BdD-rV-u3J" secondAttribute="trailing" id="x0s-Ee-0vi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tgo-7h-E7h" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8Uc-bj-bKz"/>
+                            <constraint firstItem="ao0-eO-Fub" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="QwH-MI-OrA"/>
+                            <constraint firstAttribute="trailing" secondItem="Tgo-7h-E7h" secondAttribute="trailing" id="R6I-mr-xCq"/>
+                            <constraint firstAttribute="trailing" secondItem="ao0-eO-Fub" secondAttribute="trailing" id="lea-dz-pZ7"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Tgo-7h-E7h" secondAttribute="bottom" id="pta-J4-yGw"/>
+                            <constraint firstItem="ao0-eO-Fub" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="wrS-SF-nZT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music-player" width="64" height="64"/>
+    </resources>
+</document>
